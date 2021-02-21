@@ -1,0 +1,46 @@
+site_name: inband
+
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    primary: black
+  features:
+#   - navigation.instant
+  - navigation.tabs
+  - navigation.sections
+
+markdown_extensions:
+  - meta
+  - admonition
+  - footnotes
+# - pymdownx.details
+# - pymdownx.superfences
+
+
+nav:
+  - home: 'index.md' 
+  - about: 'about.md'
+  - crypto:
+    - x509: 'crypto/x509.md' 
+# - service provider:
+  - vpn: 
+    - ipsec:
+      - ikev1:
+        - pre-shared:
+          - cisco: 'vpn/ipsec/ikev1/pre-shared/cisco.md' 
+#    - openvpn:
+#    - l2tp:
+#    - mpls:
+#  - voip: 
+
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/inband
+      name: inband (github)
+
+
