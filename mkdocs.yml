@@ -27,15 +27,17 @@ nav:
 # - service provider:
   - vpn: 
     - ipsec:
-      - ikev1:
-        - pre-shared:
-          - cisco: 'vpn/ipsec/ikev1/pre-shared/cisco.md' 
+      - site-to-site:
+        - pre-shared-keys:
+          - cisco: 'vpn/ipsec/site-to-site/pre-shared-keys/cisco.md' 
 #    - openvpn:
 #    - l2tp:
 #    - mpls:
 #  - voip: 
 
-
+plugins:
+  - search
+  - git-revision-date-localized
 
 extra:
   social:
