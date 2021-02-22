@@ -15,8 +15,10 @@ markdown_extensions:
   - meta
   - admonition
   - footnotes
+  - attr_list
 # - pymdownx.details
-# - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.superfences
 
 
 nav:
