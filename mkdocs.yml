@@ -26,15 +26,23 @@ nav:
   - about: 'about.md'
   - crypto:
     - x509: 'crypto/x509.md' 
-# - service provider:
-  - vpn: 
+  - sp:
+    - ospf:
+      - cisco-ios: 
+        - basics: 'sp/ospf/cisco-ios/basics.md'
+    - pppoe:
+      - cisco-ios: 'sp/pppoe/cisco-ios.md'
+  - vpn:
     - ipsec:
       - site-to-site:
         - pre-shared-keys:
-          - cisco: 'vpn/ipsec/site-to-site/pre-shared-keys/cisco.md' 
-#    - openvpn:
-#    - l2tp:
-#    - mpls:
+          - cisco-ios: 'vpn/ipsec/site-to-site/pre-shared-keys/cisco-ios.md'
+  - fundamentals:
+    - layer2:
+      - arp: 'fundamentals/layer2/arp.md'
+#  - security:
+#  - design:
+#  - bcp:
 #  - voip: 
 
 plugins:
