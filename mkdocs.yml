@@ -30,6 +30,7 @@ nav:
     - nat:
       - cisco-ios: 
         - snat: 'sp/nat/cisco-ios/snat.md'
+        - snat-route-map: 'sp/nat/cisco-ios/snat-route-map.md'
     - ospf:
       - cisco-ios: 
         - basics: 'sp/ospf/cisco-ios/basics.md'
