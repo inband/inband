@@ -88,7 +88,7 @@ title: snat and route-map (cisco-iosxe)
 
 === "internet"
 
-```
+	```
 	hostname internet
 	!
 	vrf definition INTERNET
@@ -124,4 +124,4 @@ title: snat and route-map (cisco-iosxe)
 	!
 
 
-```
+	```
