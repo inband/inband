@@ -27,6 +27,9 @@ nav:
   - crypto:
     - x509: 'crypto/x509.md' 
   - sp:
+    - nat:
+      - cisco-ios: 
+        - snat: 'sp/nat/cisco-ios/snat.md'
     - ospf:
       - cisco-ios: 
         - basics: 'sp/ospf/cisco-ios/basics.md'
