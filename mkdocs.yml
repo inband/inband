@@ -55,6 +55,7 @@ nav:
       - install: 'lab/cisco-nso/install.md'
       - update-packages: 'lab/cisco-nso/update-packages.md'
       - add-devices: 'lab/cisco-nso/add-devices.md'
+      - show-commands: 'lab/cisco-nso/show-commands.md'
 
 #  - security:
 #  - design:

@@ -18,6 +18,7 @@ admin@ncs(config)# devices global-settings ssh-algorithms public-key [ ssh-ed255
 admin@ncs(config)# devices authgroups group default umap admin remote-name admin remote-password ******
 ```
 
+Add device
 
 ```
 admin@ncs(config)# devices device mel-rr1
