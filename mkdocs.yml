@@ -50,6 +50,9 @@ nav:
     - proxmox: 
       - clone: 'lab/proxmox/clone.md'
       - destroy: 'lab/proxmox/destroy.md'
+      - build: 'lab/proxmox/build.md'
+    - cisco-nso: 
+      - install: 'lab/cisco-nso/install.md'
 
 #  - security:
 #  - design:

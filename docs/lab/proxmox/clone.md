@@ -36,10 +36,3 @@ vmgenid: 3a7beeaf-0dd3-48fd-8657-390e722f1ed3
 ```
 
 
-Add additional network interface
-
-```
-# qm set 501 -net1 virtio,bridge=vmbr0,firewall=1,tag=312
-root@pve:~# qm set 501 -net1 virtio,bridge=vmbr0,firewall=1,tag=312
-update VM 501: -net1 virtio,bridge=vmbr0,firewall=1,tag=312
-```
