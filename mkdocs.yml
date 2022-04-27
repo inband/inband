@@ -44,6 +44,13 @@ nav:
   - fundamentals:
     - layer2:
       - arp: 'fundamentals/layer2/arp.md'
+  - lab:
+    - as64500:
+      - design: 'lab/as64500/design/design.md'
+    - proxmox: 
+      - clone: 'lab/proxmox/clone.md'
+      - destroy: 'lab/proxmox/destroy.md'
+
 #  - security:
 #  - design:
 #  - bcp:
