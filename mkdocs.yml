@@ -53,6 +53,8 @@ nav:
       - build: 'lab/proxmox/build.md'
     - cisco-nso: 
       - install: 'lab/cisco-nso/install.md'
+      - update-packages: 'lab/cisco-nso/update-packages.md'
+      - add-devices: 'lab/cisco-nso/add-devices.md'
 
 #  - security:
 #  - design:
