@@ -56,6 +56,8 @@ nav:
       - update-packages: 'lab/cisco-nso/update-packages.md'
       - add-devices: 'lab/cisco-nso/add-devices.md'
       - show-commands: 'lab/cisco-nso/show-commands.md'
+      - config-device: 'lab/cisco-nso/config-device.md'
+      - config-template: 'lab/cisco-nso/config-template.md'
 
 #  - security:
 #  - design:

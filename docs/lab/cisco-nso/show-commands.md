@@ -5,8 +5,6 @@ title: nso show commands
 
 
 
-!!! Note
-    This is a note
 
 
 Show devices brief
@@ -28,3 +26,77 @@ syd-rr1  192.168.18.20  -            cisco-ios-cli-6.77
 
 
 ```
+
+---
+
+Show full-configuration for device (in exec mode)
+
+!!! Note
+    This command does not auto-complete
+
+
+```
+admin@ncs(config-device-bne-p1)# pwd           
+Current submode path:
+  devices device bne-p1
+admin@ncs(config-device-bne-p1)# show full-conf
+```
+
+---
+
+Show interfaces
+
+```
+admin@ncs# show running-config devices device bne-p1 config interface 
+devices device bne-p1
+ config
+  interface GigabitEthernet1
+...
+```
+
+---
+
+Show specific interface and display format as JSON.
+
+```
+admin@ncs# show running-config devices device bne-p1 config interface GigabitEthernet 1 | display json 
+{
+  "data": {
+    "tailf-ncs:devices": {
+      "device": [
+        {
+          "name": "bne-p1",
+          "config": {
+            "tailf-ned-cisco-ios:interface": {
+              "GigabitEthernet": [
+                {
+                  "name": "1",
+                  "negotiation": {
+                    "auto": true
+                  },
+                  "mop": {
+                    "xenabled": false,
+                    "sysid": false
+                  },
+                  "vrf": {
+                    "forwarding": "LAB_MGMT"
+                  },
+                  "ip": {
+                    "address": {
+                      "primary": {
+                        "address": "192.168.18.71",
+                        "mask": "255.255.254.0"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+
+
+```
+
