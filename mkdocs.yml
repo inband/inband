@@ -31,9 +31,15 @@ nav:
       - cisco-ios: 
         - snat: 'sp/nat/cisco-ios/snat.md'
         - snat-route-map: 'sp/nat/cisco-ios/snat-route-map.md'
+    - nexus:
+        - bfd: 'sp/nexus/bfd.md'
+        - vpc: 'sp/nexus/vpc.md'
+        - vlan: 'sp/nexus/vlan.md'
+
     - ospf:
       - cisco-ios: 
         - basics: 'sp/ospf/cisco-ios/basics.md'
+        - mpls-ldp-auto: 'sp/ospf/cisco-ios/mpls-ldp-auto.md'
     - pppoe:
       - cisco-ios: 'sp/pppoe/cisco-ios.md'
   - vpn:

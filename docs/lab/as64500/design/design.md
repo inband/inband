@@ -20,3 +20,11 @@ The diagram shows router names and L2 connectivity
 ![Diagram](lab_as64500_l2.png)
 
 
+---
+
+The diagram shows L3 information
+
+
+![Diagram](lab_as64500_l3.png)
+
+
